@@ -1,0 +1,9 @@
+---
+- hosts: localhost
+  gather_facts; false
+  tasks:
+    - name: We are going stoping some process
+      ansible.builtin.service:
+        name: crond
+        state: stopped
+...
