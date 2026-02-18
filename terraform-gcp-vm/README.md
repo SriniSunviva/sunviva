@@ -39,3 +39,5 @@ terraform destroy -var-file="example.tfvars"
 Tips
 - Edit `example.tfvars` with your `project` and optionally change `machine_type` and `image`.
 - Use `gcloud compute ssh` or add your SSH public key to the instance metadata if you need SSH access.
+ww are testing git
+testing . and --all
